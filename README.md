@@ -65,6 +65,7 @@ A B | C S
 ```
 
 Each line shows one possible combination of input bits and the corresponding output produced by the circuit.
+
 The program **does not print the header row** (A B | C S).  
 
 ---

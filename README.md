@@ -77,13 +77,20 @@ Compile using the provided Makefile:
 make
 ```
 
-***
 Run the program with a circuit file:
 
 ```
 ./truthtable data/test.1.01.txt
 ```
 
+#### Verify Output:
+Each test circuit in the `data/` folder has a matching reference file (`ref.*.txt`) containing the correct truth-table output for that circuit.
+
+Compare your program’s output to the corresponding reference file:
+
+```
+data/ref.1.01.txt
+```
 ---
 
 ### File Structure
